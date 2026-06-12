@@ -31,6 +31,9 @@
 ---
 
 ## Usage (incase you would want to change calc.exe, more on that later)
+
+There will be a file (payload.exe), incase some gurus want to reverse engineer
+
  - generate shellcode for calc
 
 ```msfvenom -p windows/x64/exec CMD="calc.exe" -f raw -o edge.bin```
