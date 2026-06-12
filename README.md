@@ -50,6 +50,11 @@ There will be a file (payload.exe), incase some gurus want to reverse engineer
 
 <img width="666" height="454" alt="image" src="https://github.com/user-attachments/assets/89bedbc1-bccd-4682-8760-02cd60ea7dab" />
 
+
+## Result:
+
+<img width="991" height="588" alt="image" src="https://github.com/user-attachments/assets/d9bca7a5-8800-4da4-8580-097143fb0398" />
+
 ---
 
 ## Table of Contents
